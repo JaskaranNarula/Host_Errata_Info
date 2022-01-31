@@ -39,7 +39,7 @@ except getopt.error as err:
 
 Params = {
           "errata_restrict_applicable": True,
-          "errata_restrict_installable": False,
+          "errata_restrict_installable": True,
           "per_page": 10000,
           "page": 1,
          }
